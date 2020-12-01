@@ -1,0 +1,97 @@
+.block{
+    page-break-after: always;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    background-image: url("#{resource['media/background.jpg']}");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container {
+    font-family: "Franklin Gothic Demi", sans-serif;
+    padding-left: 10px;
+    row-gap: 10px;
+}
+.clocks:hover{
+    transform: scale(1.05);
+}
+.request:hover{
+    transform: scale(1.05);
+}
+.header {
+    font-family: "Franklin Gothic Demi", fantasy;
+    background-color: #325b7c;
+    border: 4px outset #192058;
+    opacity: 90%;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.6s;
+}
+
+.header a{
+    display: block;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+}
+.clocks{
+    transition: 0.5s;
+    font-family: "Franklin Gothic Demi Cond", sans-serif;
+    font-size: 64px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #437196;
+    border-radius: 25px;
+    border-style: outset;
+    border-block-end-color: #192058;
+    padding: 10px;
+    opacity: 90%;
+    color: black;
+}
+.content{
+    animation: show 2s 1;
+    animation-delay: 10ms;
+    animation-fill-mode: forwards;
+}
+@keyframes show {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.request{
+    transition: 0.5s;
+    font-family: "Franklin Gothic Demi Cond", sans-serif;
+    font-size: 64px;
+    background-color: #437196;
+    border-radius: 25px;
+    border-style: outset;
+    border-block-end-color: #192058;
+    padding: 10px;
+    opacity: 90%;
+    color: black;
+}
+.back{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 350px;
+    transition: 0.5s;
+}
+.back:hover{
+    transform: scale(1.05);
+}
+.link{
+    color: black;
+    text-decoration: none;
+}

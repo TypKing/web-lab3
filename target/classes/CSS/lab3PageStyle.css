@@ -1,0 +1,160 @@
+.canvas{
+    transition: 0.5s;
+    border-style: outset;
+    border-radius: 9px;
+    border-color: #3a6383;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.canvas:hover{
+    transform: scale(1.05);
+}
+.blockMain{
+    page-break-after: always;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.return{
+    transition: 0.5s;
+    font-family: "Franklin Gothic Demi Cond", sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #437196;
+    border-radius: 25px;
+    border-style: outset;
+    border-block-end-color: #192058;
+    text-align: center;
+    margin-left: 200px;
+    padding: 10px;
+    opacity: 90%;
+    color: black;
+    width: 300px;
+}
+.return:hover{
+    transform: scale(1.05);
+}
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+body {
+    margin: 0;
+    background-image: url("#{resource['media/background2.jpg']}");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.myForm{
+    transition: 0.5s;
+    font-family: "Franklin Gothic Demi Cond", fantasy;
+    font-size: 24px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #3a6383;
+    background-color: #437196;
+    opacity: 90%;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+}
+.myForm:hover{
+    transform: scale(1.05);
+}
+.myForm .selectBlock{
+    text-align: left;
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+    background-color: #6092ba;
+    border-style: outset;
+    border-radius: 9px;
+}
+.text:hover{
+    background-color: #5185a9;
+}
+select, input{
+    font-weight: bold;
+    text-align: left;
+    margin: 2px;
+    font-size: 18px;
+    padding: 2px;
+    width: 150px;
+}
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    text-decoration: none;
+}
+.button{
+    width: 100px;
+}
+.input{
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+}
+.selectBtn{
+    width: 50px;
+    height: 30px;
+    outline: none;
+    text-decoration: none;
+}
+.selectBtn:active{
+    border-style: inset;
+}
+.text{
+    text-align: center;
+    background-color: #6092ba;
+    border-style: outset;
+    border-radius: 9px;
+    text-decoration: none;
+    color: black;
+}
+.text:hover{
+    background-color: #5185a9;
+}
+.commandlink{
+    padding: 2px 5px;
+    text-align: center;
+    background-color: #6092ba;
+    border-style: outset;
+    border-radius: 9px;
+    text-decoration: none;
+    color: black;
+}
+.commandlink:hover{
+    background-color: #5185a9;
+}
+.commandlinks{
+    margin-bottom: 10px;
+}
+.resultForm{
+    transition: 0.5s;
+    font-family: "Franklin Gothic Demi Cond", sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #437196;
+    color: black;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #3a6383;
+    opacity: 90%;
+}
+.resultForm:hover{
+    transform: scale(1.02);
+}

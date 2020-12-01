@@ -1,0 +1,9 @@
+<hibernate-mapping>
+                                                              <class name=«PointBean» table=«PointsTable»>
+                                                                <property column=«x» name=«x» type=«java.lang.Double»/>
+                                                                <property column=«y» name=«y» type=«java.lang.Double»/>
+                                                                <property column=«r» name=«r» type=«java.lang.Double»/>
+                                                                <property column=«inArea» name=«inArea» type=«java.lang.Boolean»/>
+                                                                <property column=«time» name=«time» type=«java.lang.String»/>
+                                                              </class>
+</hibernate-mapping>
